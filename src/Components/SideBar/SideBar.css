@@ -1,0 +1,61 @@
+.upper-Section-icons{
+    display: flex;
+     flex-direction: column;
+     position: fixed;
+     width: 15%;
+     height: 1rem;
+     bottom: 65%;
+     margin: 5px;
+}
+.icon-link{    
+      margin: 20px 15px;
+      font-size: 1.3rem;
+      color: rgba(255, 255, 255, 0.4);
+      transition: 0.5s all;
+      text-decoration: none;
+      position: relative;
+} 
+.icon-text{
+   display: none;
+   font-size: 1rem;
+   position: absolute;
+   top: .1rem;
+   transform: translateX(-20%);
+   transition: transform .7s  ease-in-out;
+}
+.icon-link:hover{
+   transform: scale(1.09);
+   color: white;
+   .icon-text{
+       color: white;
+       display: inline-block;
+       transform: translateX(20%);
+   } 
+}
+.openlink{
+   color: white;
+}
+
+.blackcolor{
+    color: transparent;
+}
+.whitecolor{
+    color: white;
+} 
+@media screen and (max-width: 890px){
+
+    .icon-link:hover{
+        transform: scale(1.18);
+        color: white;
+        .icon-text{
+            display: none;
+        }
+    }
+    .icon-link{
+        margin-right: -20px;
+    }
+    .upper-Section-icons{
+        bottom: 60%;
+    }
+
+}

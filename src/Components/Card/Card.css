@@ -1,0 +1,113 @@
+.cards{
+    margin: 1rem 15rem;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.card{
+    width: 300px;
+    height: 385px;
+    background-color: black;
+    color: white;
+    border-radius: 22px; 
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s all;
+    
+}
+
+.card::before{
+    content: '';
+    position: absolute;
+    height: 450px;
+    width: 22px;
+    background: #f3f3f3;
+    box-shadow: 0 0 10px #ffffff;
+    filter: blur(4px);
+    opacity: 0.9;
+     left: 5%;
+     transition: 0.5s;
+     transform: rotate(-20deg) translateX(-95px) ;
+}
+
+.card:hover::before{
+    box-shadow: 0 8px 16px 0 rgba(79, 76, 76, 0.669), 0 6px 20px 0 rgba(0,0,0,.19);
+    transform: rotate(-20deg) translate(350px, 100px);
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(79, 76, 76, 0.669), 0 6px 20px 0 rgba(0,0,0,.19);
+    transform: scale(1.08);
+}
+ 
+.small-img{
+    width: 300px;
+    height: 180px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.description{
+    margin: 1px 5px;
+    font-family: DM Sans, sans-serif;
+}
+.small-proj-name{
+    display: flex;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 1rem;
+    color: rgba(255, 255, 255, 0.874);
+}
+
+.host{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    width: 100%;
+    height: 55px;
+}
+
+.host-btn{
+     display: flex;
+     width: 100px;
+     height: 50px;
+     background-color:  rgba(255, 255, 255, 0.1);
+     border-radius: 25px;
+     border: .3px solid rgb(72, 75, 71);
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     color: white;   
+}
+.host-btn:hover{
+    border: .3px solid rgb(162, 171, 159);
+}
+
+.host-live-btn{
+       width: 150px;
+}
+
+.small-proj-des{
+    color: rgba(255, 255, 255, 0.81);;
+    display: flex;
+    margin: 0px 10px;
+    text-align: start;
+}
+
+@media screen and (max-width: 1220px){
+
+    .cards{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 890px){
+
+    .cards{
+        display: block;
+        margin: auto 30% auto 30%;
+    }
+}

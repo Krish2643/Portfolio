@@ -1,0 +1,184 @@
+  
+  .tooltiptext {
+    background-color: white;
+    color: #3d4144;
+    font-family: DM Sans, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.2em;
+    padding: 10px 12px;
+    border-radius: 100px;
+    text-decoration: none;
+    /* -webkit-user-select: none; */
+    pointer-events: none;
+    
+  
+    /* Position the tooltip */
+    position: absolute;
+    width: 90px;
+    z-index: 0;
+    top: 100%;
+    margin-top: 20px;
+    margin-left: -72%;
+  
+    /* visibility: hidden; */
+    opacity: 0;
+  }
+
+    
+  /* Buttons */
+  
+  .button {
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    position: relative;
+    box-shadow: 0px 0px 0px 2px transparent;
+    -moz-box-shadow: 0px 0px 0px 2px transparent;
+    -webkit-box-shadow: 0px 0px 0px 2px transparent;
+  } 
+  
+  /* .socialButtons {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+  } */
+  
+  .button:hover,
+  .button:focus {
+    outline: none;
+    /* outline-offset: 4px; */
+    background-color: rgba(255, 255, 255, 0.34);
+    box-shadow: 0px 0px 0px 4px white;
+    -webkit-box-shadow: 0px 0px 0px 4px white;
+    -moz-box-shadow: 0px 0px 0px 4px white;
+    opacity: 1;
+    transition: 0.2s ease;
+  }
+  
+  .button:active {
+    background-color: rgba(255, 255, 255, 0.36);
+    border-radius: 28px;
+    transition: 0.2s ease;
+  }
+  
+  .button:focus .tooltiptext {
+    visibility: visible;
+    z-index: 100;
+    opacity: 1;
+    margin-top: 20px;
+    transition: 0.2s ease;
+  }
+  
+  .b1:hover .tooltiptext,
+  .b2:hover .tooltiptext,
+  .b3:hover .tooltiptext,
+  .b4:hover .tooltiptext,
+  .b5:hover .tooltiptext {
+    /* visibility: visible; */
+    opacity: 1;
+    z-index: 100;
+    transition: 0.2s ease;
+    margin-top: 16px;
+  }
+  
+  .b1 {
+    transform: rotate(-6deg);
+    margin-top: 13px;
+  }
+  
+  .b2 {
+    transform: rotate(-3deg);
+    margin-top: 4px;
+  }
+  
+  .b3 {
+    transform: rotate(0deg);
+  }
+  
+  .b4 {
+    transform: rotate(3deg);
+    margin-top: 4px;
+  }
+  
+  .b5 {
+    transform: rotate(6deg);
+    margin-top: 13px;
+  }
+  
+  .placeholder {
+    color: white;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 70%;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+  }
+  
+  .placeholder-text {
+    font-family: DM, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* .socialButtonsMobile {
+    display: none;
+    margin: auto;
+    flex-direction: column;
+    margin: auto;
+  } */
+  
+  /* .top,
+  .bottom {
+    display: flex;
+    margin: auto;
+    gap: 12px;
+  }
+  
+  .bottom {
+    margin-top: 12px;
+  } */
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1100px) {
+    .container {
+      width: 1100px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      display: flex;
+    }
+  
+    h1 {
+      font-size: 48px;
+      font-weight: 400;
+      letter-spacing: -1px;
+    }
+  
+    .socialButtons {
+      display: none;
+    }
+    .socialButtonsMobile {
+      display: flex;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
