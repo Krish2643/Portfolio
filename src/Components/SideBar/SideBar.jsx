@@ -1,33 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCircleUser, faHome, faPaperPlane, faPaperclip, faPenRuler
 } from '@fortawesome/free-solid-svg-icons'
 import "./SideBar.css"
-import { useParams } from 'react-router-dom'
 
 
 const SideBar = () => {
-
-    // const para = useParams;
-    // console.log(para);
-
-//    const projFun = () => {
-//          console.log("hello"); 
-//          setPjColor(true);
-//          setPfColor(false);
-//    }
-
-    // const profFun = () => {
-    //      console.log("world"); 
-    //      setPjColor(false);
-    //      setPfColor(true);
-    // }
-
-    const mystyle = {
-         
-    }
-
 
   return (
       <div className="side-bar">
