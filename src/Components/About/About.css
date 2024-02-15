@@ -102,14 +102,15 @@
     
     .photo{
        top: 5rem;
-       left: 15rem;
+       /* left: 15rem; */ 
+        left: 50%;
        width: 100px;
        height: 100px;
     }
     .about-description{
         margin-left: 0.4rem;
-        width: 18rem;
-        font-size: .8rem;
+        width: 14rem;
+        font-size: .9rem;
         line-height: 1.3rem;
         letter-spacing: .6px;
          } 

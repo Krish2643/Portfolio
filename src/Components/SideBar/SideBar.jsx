@@ -13,7 +13,6 @@ const SideBar = () => {
     <div className="upper-Section-icons">
              
              <NavLink to='/project' className='icon-link openlink2' 
-            
              >
               <FontAwesomeIcon 
               className='profile-icon upper-Section-icon' 

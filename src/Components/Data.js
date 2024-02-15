@@ -14,7 +14,7 @@ export default {
     name : "Netflix Clone",
     description : "A Netflix clone using React is a web application that replicates the functionality and design of the popular streaming platform Netflix.",
     imageUrl : "Images/Netflix_pic.png",
-    liveLink: '',
+    liveLink: 'https://netflix-clone-a041d.web.app/',
     githubLink: 'https://github.com/Krish2643/Netflix_Clone_app'
    },
    {id: "3", 
@@ -23,6 +23,14 @@ export default {
     imageUrl : "Images/Codepen.png",
     liveLink: 'https://roaring-pithivier-eec1be.netlify.app/',
     githubLink: 'https://github.com/Krish2643/codepan-clone'
+   },
+   {id: "11", 
+    name : "Social Media block",
+    description : "This is an Crome extension that will block all the social media sites like Facebook, Insta, Youtube, Twitter and enhancing focus during work.",
+    imageUrl : "Images/social-media.png",
+    liveLink: 'https://github.com/Krish2643/Web_Distraction_Blocker',
+    githubLink: 'https://github.com/Krish2643/Web_Distraction_Blocker'
+    
    },
    {id: "4", 
     name : "Notes App",
