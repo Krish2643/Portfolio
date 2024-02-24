@@ -17,9 +17,7 @@
     transition: .3s all;
     animation: wave 3s infinite;
 }
-/* .hello-icon:hover{
-    transform: scale(1.15);
-} */
+
 @keyframes wave {
     0%, 100% {
       transform: rotate(0deg);
@@ -36,11 +34,16 @@
     font-size: 3rem;
     margin-bottom: -1rem; 
 }
+.RO-msg-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .RO-msg{
     color: rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
-    margin: 1.8rem 6rem;
+    margin: 1.8rem 0rem;
     font-size: 1.8rem;
 }
 .contact-form{
@@ -100,15 +103,55 @@ button.submit:hover{
     border: 1px solid white;
 }
 
+@media screen and (max-width: 960px){
+    .RO-heading{
+        font-size: 2rem;
+    }
+    .RO-msg{
+        font-size: 1.3rem;
+    }
+}
+
 @media screen and (max-width: 720px){
 
         .RO-heading{
             font-size: 36px;
         }
         .RO-msg{
-            font-size: 15px;
+            font-size: .9rem;
         }
         .hello-icon{
             top: 6%;
         }
+        #name, #email, #msg{
+             font-size: 1.2rem;
+        }
+
+}
+@media screen and (max-width: 420px){
+
+    .RO-heading{
+        font-size: 1.5rem;
+    }
+    .RO-msg-div{
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+        }
+    .RO-msg-typewriter{
+         margin-top: -1rem;
+    }
+    #name, #email{
+        margin: 1rem;
+        max-width: 50%;
+    }
+    #msg{
+
+    }
+    .name-email{ 
+        margin-top: -1rem;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;  
+    }
 }

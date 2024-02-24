@@ -1,14 +1,20 @@
-// import {Netflix} from "../Images/Netflix"
+// 12 datas are present
 
 export default {
     "proj" :[
+    {id: "12", 
+    name : "Sneaker Head",
+    description : "Comming Soon...",
+    imageUrl : "Images/Sneaker_head.png",
+    liveLink: 'https://tesla-clone-site1.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/Tesla_Clone' 
+   },
      {id: "1", 
     name : "Tesla Clone",
     description : "Crafted a captivating ReactJS-powered landing page with CSS styling, hosted on Firebase, emulating Tesla's design.",
     imageUrl : "Images/Tesla_Pic.jpg",
     liveLink: 'https://tesla-clone-site1.vercel.app/',
-    githubLink: 'https://github.com/Krish2643/Tesla_Clone'
-    
+    githubLink: 'https://github.com/Krish2643/Tesla_Clone' 
    },
    {id: "2", 
     name : "Netflix Clone",
