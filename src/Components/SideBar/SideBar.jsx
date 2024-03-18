@@ -8,11 +8,13 @@ import "./SideBar.css"
 
 const SideBar = () => {
 
+// className = {({isActive}) => isActive ? "icon-link active-link" : "active-link" }
+
   return (
       <div className="side-bar">
     <div className="upper-Section-icons">
              
-             <NavLink to='/project' className='icon-link openlink2' 
+             <NavLink to='/project' className = {({isActive}) => isActive ? "icon-link active-link" : "icon-link" } 
              >
               <FontAwesomeIcon 
               className='profile-icon upper-Section-icon' 
@@ -20,12 +22,12 @@ const SideBar = () => {
              <span className='icon-text toggleColor' >Project's</span>
              </NavLink>
 
-             <NavLink to='https://drive.google.com/file/d/1XG0KZujpzuN_dFTHdf9Y5LGwnIY0d5S-/view' target='_blank' className='icon-link' >
+             <NavLink to='https://drive.google.com/file/d/1DOxm1nF1tsxyW3eGLYN6An-O0yw0qyz5/view?usp=drive_link' target='_blank' className='icon-link' >
               <FontAwesomeIcon className='profile-icon upper-Section-icon' icon={faPaperclip} />
              <span className='icon-text' >Resume</span>
              </NavLink>
 
-            <NavLink to='/profile' className='icon-link openlink1'>
+            <NavLink to='/profile' className = {({isActive}) => isActive ? "icon-link active-link" : "icon-link" }>
               <FontAwesomeIcon 
               className='profile-icon upper-Section-icon'
                icon={faCircleUser} />

@@ -90,7 +90,8 @@
 }
 
 .small-proj-des{
-    color: rgba(255, 255, 255, 0.81);;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.699);;
     display: flex;
     margin: 0px 10px;
     text-align: start;

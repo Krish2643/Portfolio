@@ -18,7 +18,7 @@ const Main = () => {
           text="Projects 🔗"
         />
          <Boxes 
-          to='https://drive.google.com/file/d/1XG0KZujpzuN_dFTHdf9Y5LGwnIY0d5S-/view?usp=drive_link'
+          to='https://drive.google.com/file/d/1DOxm1nF1tsxyW3eGLYN6An-O0yw0qyz5/view?usp=drive_link'
           className="button b2"
           icon={faPaperclip}
           text="Resume 🔗"

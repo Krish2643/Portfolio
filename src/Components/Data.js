@@ -4,10 +4,17 @@ export default {
     "proj" :[
     {id: "12", 
     name : "Sneaker Head",
-    description : "Comming Soon...",
+    description : "Introducing Sneaker Store: your go-to destination for a diverse selection of shoes. Explore and shop with ease using advanced filtering and sorting features.",
     imageUrl : "Images/Sneaker_head.png",
-    liveLink: 'https://tesla-clone-site1.vercel.app/',
-    githubLink: 'https://github.com/Krish2643/Tesla_Clone' 
+    liveLink: 'https://sneakerhead2643.netlify.app/',
+    githubLink: 'https://github.com/Krish2643/SneakerHead' 
+   },
+   {id: "3", 
+    name : "Codepen",
+    description : "A CodePen clone is a React web application that allows user It allows users to write HTML, CSS, and JavaScript code in an online editor.",
+    imageUrl : "Images/Codepen.png",
+    liveLink: 'https://roaring-pithivier-eec1be.netlify.app/',
+    githubLink: 'https://github.com/Krish2643/codepan-clone'
    },
      {id: "1", 
     name : "Tesla Clone",
@@ -22,13 +29,6 @@ export default {
     imageUrl : "Images/Netflix_pic.png",
     liveLink: 'https://netflix-clone-a041d.web.app/',
     githubLink: 'https://github.com/Krish2643/Netflix_Clone_app'
-   },
-   {id: "3", 
-    name : "Codepen",
-    description : "A CodePen clone is a React web application that allows user It allows users to write HTML, CSS, and JavaScript code in an online editor.",
-    imageUrl : "Images/Codepen.png",
-    liveLink: 'https://roaring-pithivier-eec1be.netlify.app/',
-    githubLink: 'https://github.com/Krish2643/codepan-clone'
    },
    {id: "11", 
     name : "Social Media block",
