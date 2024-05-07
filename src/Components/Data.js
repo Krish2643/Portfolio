@@ -30,6 +30,22 @@ export default {
     liveLink: 'https://netflix-clone-a041d.web.app/',
     githubLink: 'https://github.com/Krish2643/Netflix_Clone_app'
    },
+   {
+    id:"13",
+    name : "Instagram Clone",
+    description : "This is an Instagram clone using backend technologies. It replicates core functionalities while showcasing my proficiency in backend development",
+    imageUrl : "Images/insta.png",
+    liveLink: 'https://github.com/Krish2643/instaclone',
+    githubLink: 'https://github.com/Krish2643/instaclone'
+   },
+   {
+    id:"14",
+    name : "Pintrest Clone",
+    description : "I've created a Pinterest clone using backend technologies. It mirrors key features of the platform and demonstrates my backend development skills effectively.",
+    imageUrl : "Images/pintrest.png",
+    liveLink: 'https://github.com/Krish2643/pintrest',
+    githubLink: 'https://github.com/Krish2643/pintrest'
+   },
    {id: "11", 
     name : "Social Media block",
     description : "This is an Crome extension that will block all the social media sites like Facebook, Insta, Youtube, Twitter and enhancing focus during work.",

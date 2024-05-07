@@ -9,7 +9,7 @@ const Main = () => {
   return (
        
     <div className="container">
-    <h1 className='my_name' >Hello, I'm <span className="my_name_text-color"> <strong>Krish</strong></span> Front-End <br/> React Developer</h1>
+    <h1 className='my_name' >Hello, I'm <span className="my_name_text-color"> <strong>Krish</strong></span> MERN <br/> Stack Developer</h1>
     <div className="socialButtons">
          <Boxes 
           to='/project'
