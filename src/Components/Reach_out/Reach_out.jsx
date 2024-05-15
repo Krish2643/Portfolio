@@ -52,7 +52,7 @@ const Reach_out = () => {
                 id="msg"
                 cols="80" 
                 rows="7" 
-                placeholder='Share your thought with us...'
+                placeholder='Share your thought with me...'
                 autoComplete='off'
                 required
                   />
