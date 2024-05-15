@@ -18,6 +18,19 @@ body{
 
   .my_name_text-color{
     color: #39E968;
+    position: relative
+  }
+  .my_name_text-color:after{
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    border: solid 5px #39E968;
+    border-color: #39E968 transparent transparent transparent;
+    border-radius: 50% ;
+    rotate: -3.5deg;
   }
   
   .my_name {
