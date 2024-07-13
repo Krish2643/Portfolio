@@ -1,4 +1,4 @@
-// 16 datas are present
+// 19 datas are present
 
 export default {
     "proj" :[
@@ -9,12 +9,19 @@ export default {
     liveLink: 'https://code-collab-ovh9.vercel.app/',
     githubLink: 'https://github.com/Krish2643/CodeCollab' 
    },
+   {id: "17", 
+    name : "Refokus Clone",
+    description : "Introducing Refokus Clone: Fully Animated Website, Build using Framer Motion, Locomotive.js and GSAP." ,
+    imageUrl : "Images/Refokus_clone.png",
+    liveLink: 'https://refokus-animation-clone.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/Refokus-Animation-Clone-' 
+   },
     {id: "12", 
     name : "Sneaker Head",
     description : "Introducing Sneaker Store: your go-to destination for a diverse selection of shoes. Explore and shop with ease using advanced filtering and sorting features.",
     imageUrl : "Images/Sneaker_head.png",
-    liveLink: 'https://sneakerhead2643.netlify.app/',
-    githubLink: 'https://github.com/Krish2643/SneakerHead' 
+    liveLink: 'https://sneaker-head-mern.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/sneaker_head_MERN' 
    },
      {id: "1", 
     name : "Tesla Clone",
@@ -29,6 +36,14 @@ export default {
     imageUrl : "Images/Netflix_pic.png",
     liveLink: 'https://netflix-clone-a041d.web.app/',
     githubLink: 'https://github.com/Krish2643/Netflix_Clone_app'
+   },
+   {
+    id:"18",
+    name : "Ochi Clone",
+    description : "Introducing Ochi Clone: Fully Animated Website, Build using Locomotive.js and GSAP.",
+    imageUrl : "Images/Ochi_clone.png",
+    liveLink: 'https://ochi-clone-main.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/Ochi-clone-main'
    },
    {
     id:"13",
@@ -59,6 +74,14 @@ export default {
     imageUrl : "Images/social-media.png",
     liveLink: 'https://github.com/Krish2643/Web_Distraction_Blocker',
     githubLink: 'https://github.com/Krish2643/Web_Distraction_Blocker'
+    
+   },
+   {id: "19", 
+    name : "Works Clone",
+    description : "Introducing Works Clone: Fully Animated Website, Build using javascript, Locomotive.js and GSAP.",
+    imageUrl : "Images/Works_clone.png",
+    liveLink: 'https://krish2643.github.io/works-studio/',
+    githubLink: 'https://github.com/Krish2643/works-studio'
     
    },
    {id: "16", 
