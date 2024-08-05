@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-me">
             <h3 className='first-line' >Hii, I'm</h3>
             <h2 className='second-line' >Krish Parmar</h2>
-            <p className='about-description'> I am a fresher front-end React developer with a passion for building user-friendly web applications. I have a strong foundation in C++ and data structures and algorithms, which allows me to develop efficient and scalable solutions. I am also proficient in HTML, CSS, JavaScript and Reactjs. and I am always eager to learn new technologies and frameworks. <br /> My portfolio showcases not just my technical expertise but also my enthusiasm for building innovative solutions.</p>
+            <p className='about-description'> I am MERN stack developer with a strong passion for problem-solving. I have solved over 300 DSA questions on various platforms like LeetCode and GeeksforGeeks, showcasing my proficiency in data structures and algorithms. My expertise in the MERN stack allows me to build robust and scalable web applications, and I continuously strive to enhance my skills and contribute to impactful projects.</p>
         </div> 
          <div className='about-section-button-div'>
           <button className='about-section-button' ><a className='about-section-btn' href="https://leetcode.com/krish2643/"> <SiLeetcode /> </a></button>
