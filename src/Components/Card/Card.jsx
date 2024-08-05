@@ -1,10 +1,11 @@
 import React,  {useState, useEffect} from 'react'
 import Data from '../Data'
 import './Card.css'
+// import LocomotiveScroll from "locomotive-scroll";
 
 const Card = () => {
 
-
+   // const locomotiveScroll = new LocomotiveScroll();
    const [data, setData] = useState([]);
 
    useEffect(()=>{

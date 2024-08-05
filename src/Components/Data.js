@@ -1,4 +1,4 @@
-// 19 datas are present
+// 20 data are present
 
 export default {
     "proj" :[
@@ -22,6 +22,13 @@ export default {
     imageUrl : "Images/Sneaker_head.png",
     liveLink: 'https://sneaker-head-mern.vercel.app/',
     githubLink: 'https://github.com/Krish2643/sneaker_head_MERN' 
+   },
+   {id: "20", 
+    name : "Google Gemini",
+    description : "Introducing Google Gemini: This is a AI Chatbot. where user can ask questions and receive information in response.",
+    imageUrl : "Images/Google_gemini.png",
+    liveLink: 'https://google-gemini-clone-ruddy.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/Gemini-Clone-main' 
    },
      {id: "1", 
     name : "Tesla Clone",
