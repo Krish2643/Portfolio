@@ -18,7 +18,7 @@ const Main = () => {
           text="Projects 🔗"
         />
          <Boxes 
-          to='https://drive.google.com/file/d/1jeysSdE0Q_Ypt6hnC8t0AQgUMmMeSZQH/view'
+          to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view'
           className="button b2"
           icon={faPaperclip}
           text="Resume 🔗"
@@ -54,7 +54,7 @@ const Main = () => {
               icon={faPenRuler}
             />
             <Boxes
-              to='https://drive.google.com/file/d/1jeysSdE0Q_Ypt6hnC8t0AQgUMmMeSZQH/view'
+              to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view'
               target='_blank'
               className="button"
               icon={faPaperclip}

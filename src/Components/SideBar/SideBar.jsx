@@ -22,7 +22,7 @@ const SideBar = () => {
              <span className='icon-text toggleColor' >Project's</span>
              </NavLink>
 
-             <NavLink to='https://drive.google.com/file/d/1jeysSdE0Q_Ypt6hnC8t0AQgUMmMeSZQH/view' target='_blank' className='icon-link' >
+             <NavLink to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view' target='_blank' className='icon-link' >
               <FontAwesomeIcon className='profile-icon upper-Section-icon' icon={faPaperclip} />
              <span className='icon-text' >Resume</span>
              </NavLink>
