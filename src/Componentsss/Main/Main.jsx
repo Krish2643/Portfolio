@@ -1,40 +1,39 @@
 import React from 'react'
 import Boxes from '../Boxes/Boxes'
 import './Main.css'
-import { FaPenRuler } from 'react-icons/fa6'
-import { FaPaperclip, FaPaperPlane, FaUser } from 'react-icons/fa'
+import { faPaperPlane, faPaperclip, faPenRuler, faUser } from '@fortawesome/free-solid-svg-icons'
+
 
 const Main = () => {
-
  
   return (
        
     <div className="container">
-    <h1 className='my_name' >Hello, I'm <span className="my_name_text-color"> <strong>Krish</strong></span> Full <br/> Stack Developer</h1>
+    <h1 className='my_name' >Hello, I'm <span className="my_name_text-color"> <strong>Krish</strong></span> MERN <br/> Stack Developer</h1>
     <div className="socialButtons">
          <Boxes 
           to='/project'
           className="button b1"
-          icon={FaPenRuler}
+          icon={faPenRuler}
           text="Projects 🔗"
         />
          <Boxes 
-          to='https://drive.google.com/file/d/1O0c6Ds6p5029XuVGsbMnlFnfT8FbIi-m/view?usp=sharing'
+          to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view'
           className="button b2"
-          icon={FaPaperclip}
+          icon={faPaperclip}
           text="Resume 🔗"
           target='_blank'
         />
         <Boxes 
           to='/reach-out'
           className="button b3"
-          icon={FaPaperPlane}
+          icon={faPaperPlane}
           text="Reach out 🔗"
         />
         <Boxes 
           to='/profile'
           className="button b4"
-          icon={FaUser}
+          icon={faUser}
           text="Profile 👨‍💻"
         />
         <Boxes 
@@ -52,25 +51,25 @@ const Main = () => {
             <Boxes
               to="/project"
               className="button"
-              icon={FaPenRuler}
+              icon={faPenRuler}
             />
             <Boxes
-              to='https://drive.google.com/file/d/1O0c6Ds6p5029XuVGsbMnlFnfT8FbIi-m/view?usp=sharing'
+              to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view'
               target='_blank'
               className="button"
-              icon={FaPaperclip}
+              icon={faPaperclip}
             />
         </div>
         <div className="bottom">
         <Boxes
               to="/reach-out"
               className="button"
-              icon={FaPaperPlane}
+              icon={faPaperPlane}
             />
         <Boxes
               to="/profile"
               className="button"
-              icon={FaUser}
+              icon={faUser}
             />
         <Boxes
               to="https://leetcode.com/krish2643/"

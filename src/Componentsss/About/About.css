@@ -1,0 +1,125 @@
+.about-Section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    position: relative;
+    
+}
+.profile-pic{
+    width: 25%;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid rgba(65, 64, 62, 0.975);
+    position: absolute;
+    top: 16rem;
+    left: 15rem;
+    opacity: 1;
+    z-index: 1;
+}
+.about-me{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(57, 54, 54, 0.548);
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    z-index: -1;
+}
+
+
+.first-line{
+    color: rgba(195, 186, 186, 0.763);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.second-line{
+    margin-top: 0;
+    font-size: 3rem;
+}
+.about-description{
+    color: rgba(255, 255, 255, 0.822);
+    margin-left: 2rem ;
+    margin-right: 2rem;
+    margin-top: 0rem;
+    line-height: 1.5rem;
+    letter-spacing: .8px;
+    width: 35rem;
+    font-size: 1rem;
+    text-align: start;
+}
+
+.about-section-button-div{
+    position: absolute;
+    bottom: 20%;
+    left: 55%;
+}
+.about-section-button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.about-section-btn{
+    color: rgb(170, 177, 170);
+    transition: .3s ease-out;
+}
+.about-section-btn:hover{
+    color: rgb(252, 253, 252);
+}
+
+
+@media screen and (max-width: 1280px){
+    
+     .photo{
+        width: 200px;
+        height: 200px;
+        left: 12rem;
+     }
+     .second-line{
+        font-size: 2rem;
+     }
+    .about-description{
+    margin-left: 3rem ;
+    margin-right: 3rem;
+    line-height: 1.3rem;
+    letter-spacing: .6px;
+     }
+
+}
+@media screen and (max-width: 890px){
+    
+    .photo{
+       top: 5rem;
+       /* left: 15rem; */ 
+        left: 50%;
+       width: 100px;
+       height: 100px;
+    }
+    .about-description{
+        margin-left: 0.4rem;
+        width: 14rem;
+        font-size: .9rem;
+        line-height: 1.3rem;
+        letter-spacing: .6px;
+         } 
+    .about-section-button-div{
+              left: 40%;
+         }
+    .about-section-button{
+        font-size: 1.5rem;
+    }
+}
+
+

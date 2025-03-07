@@ -1,8 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCircleUser, faHome, faPaperPlane, faPaperclip, faPenRuler
-} from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import {faCircleUser, faHome, faPaperPlane, faPaperclip, faPenRuler
+// } from '@fortawesome/free-solid-svg-icons'
+import { FaPenRuler } from 'react-icons/fa6'
+import { FaHome, FaPaperclip, FaPaperPlane, FaUser } from 'react-icons/fa'
 import "./SideBar.css"
 
 
@@ -16,32 +18,39 @@ const SideBar = () => {
              
              <NavLink to='/project' className = {({isActive}) => isActive ? "icon-link active-link" : "icon-link" } 
              >
-              <FontAwesomeIcon 
+              <FaPenRuler 
               className='profile-icon upper-Section-icon' 
-              icon={faPenRuler} />
+              // icon={faPenRuler} 
+              />
              <span className='icon-text toggleColor' >Project's</span>
              </NavLink>
 
              <NavLink to='https://drive.google.com/file/d/1CjEX79L8Bz25defqTH8JxU6VDI27yVoJ/view' target='_blank' className='icon-link' >
-              <FontAwesomeIcon className='profile-icon upper-Section-icon' icon={faPaperclip} />
+              <FaPaperclip className='profile-icon upper-Section-icon'  />
              <span className='icon-text' >Resume</span>
              </NavLink>
 
             <NavLink to='/profile' className = {({isActive}) => isActive ? "icon-link active-link" : "icon-link" }>
-              <FontAwesomeIcon 
+              <FaUser
               className='profile-icon upper-Section-icon'
-               icon={faCircleUser} />
+              //  icon={faCircleUser}
+                />
               <span className='icon-text' 
               >Profile</span>
              </NavLink> 
 
              <NavLink to='/reach-out' className='icon-link' >
-              <FontAwesomeIcon className='profile-icon upper-Section-icon' icon={faPaperPlane} />
+              <FaPaperPlane className='profile-icon upper-Section-icon' 
+              // icon={faPaperPlane} 
+              />
              <span className='icon-text' >Reach Out</span>
              </NavLink> 
 
              <NavLink to='/' className='icon-link' >
-              <FontAwesomeIcon className='profile-icon upper-Section-icon' icon={faHome} />
+              <FaHome
+               className='profile-icon upper-Section-icon' 
+              // icon={faHome}
+               />
              <span className='icon-text' >Home</span>
              </NavLink>
                    

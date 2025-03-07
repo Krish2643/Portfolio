@@ -1,14 +1,11 @@
 import "./App.css";
-import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./Components/Main/Main";
 import Project from "./Components/Project/Project";
 import Reach_out from "./Components/Reach_out/Reach_out";
 import About from "./Components/About/About";
-import Card from "./Components/Card/Card";
 
-function App() {
-
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +15,7 @@ function App() {
         <Route path="/profile" element={<About />} />
       </Routes>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App
