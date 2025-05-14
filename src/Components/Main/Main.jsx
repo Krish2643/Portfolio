@@ -19,7 +19,7 @@ const Main = () => {
           text="Projects 🔗"
         />
          <Boxes 
-          to='https://drive.google.com/file/d/1O0c6Ds6p5029XuVGsbMnlFnfT8FbIi-m/view?usp=sharing'
+          to='https://drive.google.com/drive/folders/1-XmKi2d-e6SkQD29m8mPtZAl-veTTE39'
           className="button b2"
           icon={FaPaperclip}
           text="Resume 🔗"
@@ -55,7 +55,7 @@ const Main = () => {
               icon={FaPenRuler}
             />
             <Boxes
-              to='https://drive.google.com/file/d/1O0c6Ds6p5029XuVGsbMnlFnfT8FbIi-m/view?usp=sharing'
+              to='https://drive.google.com/drive/folders/1-XmKi2d-e6SkQD29m8mPtZAl-veTTE39'
               target='_blank'
               className="button"
               icon={FaPaperclip}
@@ -86,7 +86,7 @@ const Main = () => {
         <div className="workBadge" aria-label="Current"><span>CURRENTLY</span></div>
         <br/>
         <br/>
-        <h4 className='clg_name' >Pursuing a B.Tech degree at Panjab University</h4>
+        <h4 className='clg_name' >Full Stack Developer at BluParrot Venture</h4>
     </div>
 </div>
 
