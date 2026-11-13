@@ -86,7 +86,7 @@ const Main = () => {
         <div className="workBadge" aria-label="Current"><span>CURRENTLY</span></div>
         <br/>
         <br/>
-        <h4 className='clg_name' >Full Stack Developer at BluParrot Venture</h4>
+        <h4 className='clg_name' >Software Developer at Geosoft Global</h4>
     </div>
 </div>
 

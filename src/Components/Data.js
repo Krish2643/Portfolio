@@ -1,4 +1,4 @@
-// 20 data are present
+// 21 data are present
 
 export default {
     "proj" :[
@@ -22,6 +22,13 @@ export default {
     imageUrl : "Images/Refokus_clone.png",
     liveLink: 'https://refokus-animation-clone.vercel.app/',
     githubLink: 'https://github.com/Krish2643/Refokus-Animation-Clone-' 
+   },
+   {id: "21", 
+    name : "TutorX",
+    description : "Built TutorX, a student-focused tutoring platform that simplifies course discovery, scheduling, and learning support in one place" ,
+    imageUrl : "Images/TutorX.png",
+    liveLink: 'https://tutor-x-lovat.vercel.app/',
+    githubLink: 'https://github.com/Krish2643/TutorX' 
    },
     {id: "12", 
     name : "Sneaker Head",
@@ -106,14 +113,6 @@ export default {
     githubLink: 'https://github.com/Krish2643/Goal_tracker'
     
    },
-   {id: "4", 
-    name : "Notes App",
-    description : "This is a simple web app. that allows users to create and organize their personal notes digitally. Users can add new notes, edit and delete notes.",
-    imageUrl : "Images/Notes_app.webp",
-    liveLink: 'https://krish2643.github.io/Notes_app/',
-    githubLink: 'https://github.com/Krish2643/Notes_app'
-    
-   },
    {id: "5", 
     name : "QR Generator",
     description : "It is web app that allow user to create QR codes. Users can input such as URLs, text and it will produce a QR code image that representing data.",
@@ -155,6 +154,15 @@ export default {
 //    imageUrl : "Images/Calculatpr_app.webp",
 //    liveLink: 'https://krish2643.github.io/Calculator_app/',
 //    githubLink: 'https://github.com/Krish2643/Calculator_app' 
+//    },
+
+// {id: "4", 
+//     name : "Notes App",
+//     description : "This is a simple web app. that allows users to create and organize their personal notes digitally. Users can add new notes, edit and delete notes.",
+//     imageUrl : "Images/Notes_app.webp",
+//     liveLink: 'https://krish2643.github.io/Notes_app/',
+//     githubLink: 'https://github.com/Krish2643/Notes_app'
+    
 //    },
 
 

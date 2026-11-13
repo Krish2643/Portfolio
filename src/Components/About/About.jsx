@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-me">
             <h3 className='first-line' >Hii, I'm</h3>
             <h2 className='second-line' >Krish Parmar</h2>
-            <p className='about-description'> I am MERN stack developer with a strong passion for problem-solving. I have solved over 300 DSA questions on various platforms like LeetCode and GeeksforGeeks, showcasing my proficiency in data structures and algorithms. My expertise in the MERN stack allows me to build robust and scalable web applications, and I continuously strive to enhance my skills and contribute to impactful projects.</p>
+            <p className='about-description'> Full Stack Developer with 2.5 years of experience designing and building scalable, production-grade web applications using Node.js, Express.js, React.js, and PostgreSQL. Strong knowledge of microservices architecture, event-driven architecture, message queues (AWS SQS, Apache Kafka), RESTful API development, and distributed systems fundamentals. Experienced in database optimization, asynchronous processing, cloud integrations, containerization using Docker, and designing reliable backend services.</p>
         </div> 
          <div className='about-section-button-div'>
           <button className='about-section-button' ><a className='about-section-btn' href="https://leetcode.com/krish2643/"> <SiLeetcode /> </a></button>
